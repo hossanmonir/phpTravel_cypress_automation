@@ -1,0 +1,22 @@
+{
+  "name": "cypress_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "smoke": "npx cypress run --spec cypress/e2e/test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.2",
+    "cypress-xpath": "^2.0.1",
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "cypress-mochawesome-reporter": "^3.8.0"
+  }
+}
